@@ -1,0 +1,41 @@
+/* Estilo para centrar el contenido */
+
+  
+  /* Estilo específico para el contenedor de tu aplicación */
+  .container {
+    text-align: center;
+  }
+  
+  /* Estilo para el logo (ajusta el tamaño según sea necesario) */
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Estilo para el título */
+  h1 {
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+
+  }
+  
+  /* Estilo para el input y el botón */
+  .input-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Media queries para dispositivos móviles */
+  @media (max-width: 768px) {
+    /* Ajusta el tamaño del logo para pantallas más pequeñas */
+    img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    /* Ajusta el ancho del input y el botón para pantallas más pequeñas */
+    .input-group {
+      width: 100%;
+    }
+  }
+  

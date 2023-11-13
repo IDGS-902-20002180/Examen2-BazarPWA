@@ -1,0 +1,35 @@
+/* Estilos adicionales para ProductDetail */
+
+/* Estilo para el botón de regreso */
+.btn-back {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  margin: 20px;
+}
+
+/* estilo para el h2 que trae el título del producto que se vea llamativo */
+h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* Media queries para dispositivos móviles */
+@media (max-width: 768px) {
+  /* Ajustes para dispositivos móviles */
+  .col-md-6 {
+    text-align: center;
+  }
+
+  .col-md-6 img {
+    width: 30%; /* Ajusta el ancho según sea necesario */
+    height: auto;
+    margin: 5px;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+}

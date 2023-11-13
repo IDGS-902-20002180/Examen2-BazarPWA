@@ -1,0 +1,93 @@
+/* Estilos adicionales para SearchResults */
+
+/* Estilo para el título "Resultados de búsqueda" */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para el input de búsqueda y el botón */
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para la tarjeta de producto */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo para la imagen del producto dentro de la tarjeta */
+  .card-img-top {
+    height: 250px; /* Ajusta según sea necesario para hacerla más grande */
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Estilo para el cuerpo de la tarjeta */
+  .card-body {
+    padding: 15px;
+  }
+  
+  /* Estilo para el título del producto */
+  .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  /* Estilo para el precio del producto */
+  .card-text {
+    color: #007bff; /* Azul Bootstrap */
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para el botón "Ver Detalles" */
+  .btn-primary {
+    background-color: #28a745; /* Verde Bootstrap */
+    border: none;
+  }
+  
+  /* Estilo para el botón de regreso */
+  .btn-back {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para el párrafo */
+  p {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  
+  /* Estilo para el botón de regreso en la esquina superior izquierda */
+  #buttonBack {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 20px;
+  }
+  span{
+    font-weight: bold;
+    color: firebrick;
+  }
+  
+  /* Media queries para dispositivos móviles */
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 20px;
+    }
+  
+    /* Ajustes adicionales para dispositivos móviles si es necesario */
+    .card-img-top {
+      max-height: 250px; /* Ajusta según sea necesario para dispositivos móviles */
+    }
+  }
+  
