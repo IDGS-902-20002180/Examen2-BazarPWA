@@ -14,7 +14,7 @@ const SearchResults = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://www.bazaronline-apiservice.somee.com/api/Products?searchTerm=${searchTerm}`
+          `https://www.bazaronline-apiservice.somee.com/api/Products?searchTerm=${searchTerm}`
         );
         setProducts(response.data);
       } catch (error) {

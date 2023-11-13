@@ -15,7 +15,7 @@ const ProductDetail = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://www.bazaronline-apiservice.somee.com/api/Products/${productId}`
+          `https://www.bazaronline-apiservice.somee.com/api/Products/${productId}`
         );
         setProduct(response.data);
       } catch (error) {
